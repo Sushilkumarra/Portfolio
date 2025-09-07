@@ -1,0 +1,111 @@
+#app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Reset & Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: #eee;
+  color: #000;
+}
+
+/* Swiper Container */
+.swiper {
+  width: 100%;
+  height: auto; /* Allow flexible height */
+  min-height: 300px;
+}
+
+/* Swiper Slide */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(14px, 2vw, 18px); /* Responsive text size */
+  background: #fff;
+  padding: 10px;
+}
+
+/* Images inside slides */
+.swiper-slide img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 8px; /* Optional for modern look */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .swiper-slide {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .swiper-slide img {
+    border-radius: 4px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   */
