@@ -16,7 +16,7 @@ const Home = () => {
   }, []);
 
   let handleFacebook = () => {
-    window.open("https://www.facebook.com/profile.php?id=100038828467837", "_blank");
+    window.open("https://www.geeksforgeeks.org/user/invertissushil5171/", "_blank");
   };
 
   let handleLinkedin = () => {
@@ -24,7 +24,7 @@ const Home = () => {
   };
 
   let handleInstagram = () => {
-    window.open("https://www.instagram.com/suskumar646/", "_blank");
+    window.open("https://course.acciojob.com/", "_blank");
   };
 
   return (
@@ -52,13 +52,13 @@ const Home = () => {
           {/* Social Icons */}
           <div className="h-11 flex flex-row space-x-6 md:space-x-8 mt-6">
             <img
-              src="facebook.png"
+              src="geeksforgeeks.svg"
               alt="Facebook"
               className="cursor-pointer hover:scale-125 duration-700 w-8 h-8 sm:w-10 sm:h-10"
               onClick={handleFacebook}
             />
             <img
-              src="instagram.png"
+              src="acciojob_logo.svg"
               alt="Instagram"
               className="cursor-pointer hover:scale-125 duration-700 w-8 h-8 sm:w-10 sm:h-10"
               onClick={handleInstagram}
