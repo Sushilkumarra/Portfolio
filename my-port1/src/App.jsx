@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/layout/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Resume from "./components/Resume";
+//import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
@@ -20,7 +20,7 @@ function App() {
         <Route path="/Education" element={<Education />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Resume" element={<Resume/>} />
+        {/* <Route path="/Resume" element={<Resume/>} /> */}
       </Routes>
     </>
   );

@@ -5,7 +5,7 @@ import Skills from './Skills.jsx';
 import Education from './Education.jsx';
 import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
-import Resume from './Resume.jsx';
+//import Resume from './Resume.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -84,7 +84,7 @@ const Home = () => {
       <hr />
       <Contact />
       <hr />
-      <Resume />
+      {/* <Resume /> */}
     </div>
   );
 };
